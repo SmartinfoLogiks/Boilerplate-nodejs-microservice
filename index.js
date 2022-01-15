@@ -86,6 +86,8 @@ process.on('uncaughtException', function (err) {
     console.error(err.name, err.message, err.stack);
 });
 
+//Bootstrap Control and Discovery Server Connection
+
 
 /**
  * Start Server, Checks for availale PORTs

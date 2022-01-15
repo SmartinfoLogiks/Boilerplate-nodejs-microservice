@@ -20,3 +20,7 @@ This should give you a basic api at 8989 (If you have not changed the port). Hit
 + Restart the node processs
 + Thats it, as simple as that
 
+### MicroService Specs
+1. On Bootstrap Register With Control and Discovery Server
+2. Register all subapi route paths with Control and Discovery Server (optional)
+3. Provide /ok route path for Control and Discovery Server to monitor the service
